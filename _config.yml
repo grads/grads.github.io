@@ -1,0 +1,24 @@
+# Site settings
+title: Grads
+description: Everything is going to be okay.
+baseurl: "/"  # the subpath of your site, e.g. /blog
+url: ""
+repository: grads/grads.github.io
+
+
+# Build settings
+markdown: kramdown
+# plugins:
+# - jekyll-feed
+
+# Posts default Permalink
+permalink: stories/:year/:title
+
+
+# Exclude from processing.
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
