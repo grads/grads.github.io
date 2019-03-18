@@ -53,7 +53,3 @@ Tags:
 <hr>
 
 {% endfor %}
-
-<footer>
-  Everything is going to be okay.</br>
-</footer>
