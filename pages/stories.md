@@ -26,7 +26,7 @@ a:hover {
 {% if words < 360 %}
 less than 1 min read time
 {% else %}
-{{ post.words | divided_by:180 }} mins read time
+{{ words | divided_by:180 }} mins read time
 {% endif %}
 </b>
 
