@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stories
-permalink: /stories-roll/
+permalink: /stories/
 weight: 4
 ---
 
