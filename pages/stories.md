@@ -37,7 +37,7 @@ Tags:
 
 <br>
 
-<hr>
+<hr style="color:#e2e2e245">
 
 {% endfor %}
 
