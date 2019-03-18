@@ -11,6 +11,10 @@ markdown: kramdown
 # plugins:
 # - jekyll-feed
 
+# Social
+email: support@gradstories.org
+twitter: gradstories_
+
 # Posts default Permalink
 permalink: stories/:year/:title
 

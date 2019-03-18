@@ -1,7 +1,7 @@
 <div class="container-fluid justify-content-center">
 
-  {% if site.author.twitter %}
-  <a class="social twitter mx-1" href="https://www.twitter.com/{{ site.author.twitter }}">
+  {% if site.twitter %}
+  <a class="social twitter mx-1" href="https://www.twitter.com/{{ site.twitter }}">
     <i class="fab fa-1x fa-twitter"></i>
   </a>
   {% endif %}
@@ -12,8 +12,8 @@
   </a>
   {% endif %}
 
-  {% if site.author.email %}
-  <a class="social email mx-1" href="mailto:{{ site.author.email }}">
+  {% if site.email %}
+  <a class="social email mx-1" href="mailto:{{ site.email }}">
     <i class="fas fa-1x fa-envelope"></i>
   </a>
   {% endif %}
