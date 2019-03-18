@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: stories
 title: Stories
 permalink: /stories/
 weight: 4
