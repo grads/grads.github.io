@@ -9,12 +9,15 @@ weight: 4
 .article hr {
     background: #e2e2e2 !important;
 }
+a:hover {
+    text-decoration: none;
+}
 </style>
 
 {% for post in site.posts %}
 
 <div style="margin-bottom:50px; margin-top:50px">
-<h1><b>{{ post.title }}</b></h1>
+<h1><b><a style="" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></b></h1>
 
 <p class="article-metadata text-muted">
 {{ post.date | date_to_long_string }} -  
