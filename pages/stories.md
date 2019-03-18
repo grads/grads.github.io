@@ -5,6 +5,11 @@ permalink: /stories/
 weight: 4
 ---
 
+<style>
+.article hr {
+    background: #e2e2e2 !important;
+}
+</style>
 
 {% for post in site.posts %}
 
@@ -37,7 +42,7 @@ Tags:
 
 <br>
 
-<hr style="color:#e2e2e245">
+<hr>
 
 {% endfor %}
 
