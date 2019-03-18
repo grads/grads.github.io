@@ -12,6 +12,11 @@ weight: 4
 a:hover {
     text-decoration: none;
 }
+
+.article a {
+   transition: none !important;
+   text-decoration: none !important;
+}
 </style>
 
 {% for post in site.posts %}
